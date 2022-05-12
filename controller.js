@@ -2,7 +2,7 @@ const path = require("path");
 const fs = require("fs");
 
 //joining path of directory
-const directoryPath = path.join(__dirname, "/../../../Downloads");
+const directoryPath = path.join(__dirname, "/");
 console.log(__dirname);
 //passsing directoryPath and callback function
 
